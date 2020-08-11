@@ -196,7 +196,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 4rem;
+		font-size: 4rem; /* changed */
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
@@ -3447,6 +3447,7 @@ input, select, textarea {
 				-ms-transform: translateY(4rem);
 				transform: translateY(4rem);
 				opacity: 0;
+				position:fixed; /*added*/
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3621,10 +3622,12 @@ input, select, textarea {
 		margin: -4rem auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
-		position: relative;
+		/*position: fixed ;*/
+		position:relative;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		
 	}
 
 		#nav ul.divided li {
