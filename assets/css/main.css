@@ -1834,8 +1834,7 @@ input, select, textarea {
 /* List */
 
 	ul {
-		list-style: none;/*disc;
-		padding-left: 1em;*/
+		list-style: none;
 	}
 
 		ul li {
@@ -1969,21 +1968,7 @@ input, select, textarea {
 		.btnEmail:active {
 			opacity: 1.0;
 		}
-		
-		/* 
-		button:hover,
-		.button:hover {
-			opacity: 0.9;
-		}
-
-		button:active,
-		.button:active {
-			opacity: 1.0;
-		}
-		*/
-
-		
-
+	
 /* Item */
 
 	.item {
@@ -2005,9 +1990,6 @@ input, select, textarea {
 			.item header h3 {
 				font-size: 1em;
 			}
-			
-		
-		
 
 /* Icons */
 
