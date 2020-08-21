@@ -1795,21 +1795,22 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
+			/*
 			.fit img:hover{
 				/* Start the shake animation and make the animation last for 0.5 seconds */
 				animation: shake 0.5s;
 
-				/* When the animation is finished, start again */
+				/* When the animation is finished, start again */ /*
 				animation-iteration-count: infinite;
 			}
-
+			
 			@keyframes shake {
 				0% { transform: translate(1px, 1px) rotate(0deg); }
 				30% { transform: translate(3px, 2px) rotate(0deg); }
 				60% { transform: translate(-3px, 1px) rotate(0deg); }
 				90% { transform: translate(1px, 2px) rotate(0deg); }1deg); }
 			}
-
+			*/
 		.image.featured {
 			display: block;
 			width: 100%;
